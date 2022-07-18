@@ -82,7 +82,7 @@ namespace MVCCrudUsingAdo.Controllers
         // POST: ProductController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [ActionName("Delete")]
+        [ActionName("Delete")] 
         public ActionResult DeleteConfirm(int id)
         {
             try
